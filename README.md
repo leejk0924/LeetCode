@@ -21,4 +21,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/leejk0924/LeetCode/tree/master/0392-is-subsequence) |
+## Database
+|  |
+| ------- |
+| [0183-customers-who-never-order](https://github.com/leejk0924/LeetCode/tree/master/0183-customers-who-never-order) |
 <!---LeetCode Topics End-->
