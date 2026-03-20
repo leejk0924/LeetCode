@@ -1,16 +1,40 @@
 class Solution {
     public String reverseWords(String s) {
-        String[] words = s.split(" ");
-        List<String> list = Arrays.stream(words).filter(Predicate.not(String::isEmpty)).toList();
-        Deque<String> stack = new ArrayDeque<>();
-        for (String word : list) {
-            stack.push(word);
+        char[] chars = s.toCharArray();
+        int n = chars.length;
+        reverse(chars, 0, n - 1);
+
+        int start = 0;
+        for (int i = 0; i <= n; i++) {
+            if (i == n || chars[i] == ' ') {
+                if (i > start) {
+                    reverse(chars, start, i - 1);
+                }
+                start = i + 1;
+            }
         }
-        StringBuilder sb = new StringBuilder();
-        sb.append(stack.pop());
-        while (stack.iterator().hasNext()) {
-            sb.append(" ").append(stack.pop());
+        int write = 0;
+        int i = 0;
+        while (i < n) {
+            if (chars[i] != ' ') {
+                if (write != 0) {
+                    chars[write++] = ' ';
+                }
+                while (i < n && chars[i] != ' ') {
+                    chars[write++] = chars[i++];
+                }
+            }
+            i++;
         }
-        return sb.toString().trim();
+        return new String(chars, 0, write);
+    }
+    private void reverse(char[] chars, int left, int right) {
+        while (left < right) {
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
+            left++;
+            right--;
+        }
     }
 }
