@@ -1,16 +1,19 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        List<Integer> result = new ArrayList<>();
-        Map<Integer, Integer> temp = new HashMap<>();
+        int xor = 0;
         for (int num : nums) {
-            temp.put(num, temp.getOrDefault(num, 0) + 1);
+            xor ^= num;
         }
-        Set<Integer> integers = temp.keySet();
-        for (Integer integer : integers) {
-            if (temp.get(integer) == 1) {
-                result.add(integer);
+        int diff = xor & (-xor);
+
+        int[] result = new int[2];
+        for (int num1 : nums) {
+            if ((num1 & diff) == 0) {
+                result[0] ^= num1;
+            } else {
+                result[1] ^= num1;
             }
         }
-        return result.stream().mapToInt(Integer::intValue).toArray();
+        return result;
     }
 }
