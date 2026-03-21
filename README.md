@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/leejk0924/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0260-single-number-iii](https://github.com/leejk0924/LeetCode/tree/master/0260-single-number-iii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -31,5 +32,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0260-single-number-iii](https://github.com/leejk0924/LeetCode/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/leejk0924/LeetCode/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
