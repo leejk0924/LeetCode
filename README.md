@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/leejk0924/LeetCode/tree/master/0049-group-anagrams) |
 | [0238-product-of-array-except-self](https://github.com/leejk0924/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0260-single-number-iii](https://github.com/leejk0924/LeetCode/tree/master/0260-single-number-iii) |
 ## Prefix Sum
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/leejk0924/LeetCode/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/leejk0924/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/leejk0924/LeetCode/tree/master/0392-is-subsequence) |
 ## Dynamic Programming
@@ -34,4 +36,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0260-single-number-iii](https://github.com/leejk0924/LeetCode/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/leejk0924/LeetCode/tree/master/0338-counting-bits) |
+## Hash Table
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/leejk0924/LeetCode/tree/master/0049-group-anagrams) |
+## Sorting
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/leejk0924/LeetCode/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
